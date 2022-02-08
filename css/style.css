@@ -430,14 +430,14 @@ header .box .close {
   font-size: 18px;
   margin: 5px 0;
   text-align: center;
-  color: var(--b-color);
+  color: #FFF;
 }
 
 .product p.size {
   font-size: 15px;
   margin-bottom: 2px;
   text-align: center;
-  color: var(--b-color);
+  color: #FFF;
 }
 
 .product p.price {
@@ -452,7 +452,7 @@ header .box .close {
 /* Start showall */
 .showall {
   position: relative;
-  padding: 0 0 120px 0;
+  padding: 0 0 118px 0;
 }
 
 
@@ -1272,8 +1272,29 @@ footer .foot i {
 }
 
 @media (max-width:576px) {
+  .product{
+    padding: 60px 0;
+  }
   .product .box {
     height: 215px;
+  }
+
+  .product p.contant {
+    font-size: 15px;
+  }
+  
+  .product p.size {
+    font-size: 13px;
+  }
+  
+  .product p.price {
+    font-size: 14px;
+  }
+  .product h2 {
+    font-size: 20px;
+  }
+  .last p {
+    text-align: center;
   }
   .down .landing {
     flex-direction: column-reverse;
